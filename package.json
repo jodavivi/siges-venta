@@ -1,0 +1,42 @@
+{
+  "name": "siges-venta",
+  "version": "1.0.0",
+  "description": "Servicio web para el mantenimiento de ventas",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "html-to-text": "^5.1.1",
+    "juice": "^7.0.0",
+    "nodemailer": "^6.4.10",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "pug": "^3.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.3.0",
+    "shortid": "^2.2.15",
+    "slug": "^3.3.0",
+    "request-promise-native": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodavivi/siges-venta.git"
+  },
+  "author": "David Villanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jodavivi/siges-venta/issues"
+  },
+  "homepage": "https://github.com/jodavivi/siges-venta#readme"
+}
