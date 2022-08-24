@@ -1,3 +1,5 @@
 {
-    "seqVenta": "venta.\"venta_Id_seq\"" 
+    "seqVenta": "venta.\"venta_Id_seq\"" ,
+    "seqVentaEstado": "venta.\"venta_estado_Id_seq\"" ,
+    "seqVentaPago": "venta.\"venta_pago_Id_seq\"" 
 }
